@@ -1,0 +1,17 @@
+name = 'metagrab'
+type = 'javascript'
+compatibility_date = '2022-01-02'
+account_id = 'fe86c3d78b514b31fdd1a74181c2c4ce'
+workers_dev = true
+
+
+[[kv_namespaces]]
+binding = "MANIFEST"
+id = "0da5b9e8dee24cf59522e1888f9c0f75"
+preview_id = "0da5b9e8dee24cf59522e1888f9c0f75"
+
+[build]
+command = 'yarn esbuild src/worker.ts --bundle --format=esm --outfile=dist/worker.js'
+
+[build.upload]
+format = 'service-worker'

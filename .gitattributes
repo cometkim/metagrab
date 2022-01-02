@@ -1,0 +1,2 @@
+.yarn/**          binary
+.yarn/releases/*  linguist-vendored

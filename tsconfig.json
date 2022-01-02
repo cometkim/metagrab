@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["WebWorker", "ESNext"],
+    "strict": true,
+    "composite": true,
+    "incremental": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+  ]
+}
